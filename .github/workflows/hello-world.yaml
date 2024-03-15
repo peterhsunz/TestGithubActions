@@ -1,0 +1,8 @@
+name: hw
+on: push
+jobs:
+    say-hello:
+        runs-on: ubuntu-latest
+        steps:
+            - name: first-steps
+              run: echo "hello world"
